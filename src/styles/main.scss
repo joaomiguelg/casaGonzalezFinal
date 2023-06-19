@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal-container {
+    padding: 0 36px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+
+    header {
+        padding-top: 54px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        .nav {
+            gap: 2vw;
+
+            .nav-link{
+                font-size: 1.2em;
+                color: #fff;
+                &:hover {
+                    color: #473129;
+                }
+            }
+            
+    
+        }
+    
+        
+    }
+
+    .main-section {
+        float: right;
+        max-width: 55%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25vh;
+        
+        p {
+            color: #ffffff;
+            font-size: 1.3em;
+        }
+    
+        h1 {
+            font-family: 'GFS Didot', serif;
+            font-weight: bold;
+            font-size: 3em;
+            color: rgb(255, 255, 255);
+        }
+    
+        .btn {
+            margin-top: 3vh;
+            background-color: #fff2b8;
+            height: 40px;
+            width: 60%;
+            font-weight: 700;
+            color: #473129;
+
+        
+            &:hover {
+                background-color: #fff2b88c;
+            }
+        }
+    }
+}
+
+.background{
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.253), rgba(0, 0, 0, 0.692)), url(../images/walnuts-1739021.jpg) center/cover no-repeat;
+    max-height: 100vh;
+    height: 100%;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.products-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        li {
+            .nav-link {
+                color: #473129;
+
+            }
+        }
+        
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: #473129 !important;
+    }
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button {
+        border: none;
+        background-color: #473129;
+        width: 90px;
+        height: 40px;
+        border-radius: 8px;
+        
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        &:hover {
+            background-color: #615854;
+        }
+    }
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.price {
+    
+}
+
+.weight-container {
+    display: flex;
+    gap: 8px;
+
+}
+
+table {
+    width: 90%;
+    height: 8vh;
+    text-align: center;
+    margin-top: 8px;
+
+    th {
+        border-left: 8px solid white;
+        background-color: #fff2b8;
+        color: #473129;
+        font-weight:bold;
+    }
+
+    td {
+        color: rgb(110, 110, 110);
+        padding: 0 14px;
+    }
+    
+}
+
+.socials {
+    ul{
+        display: flex;
+        font-size: 2em;
+        list-style: none;
+        padding-left: 0;
+        gap:1vw;
+
+        ion-icon {
+            color: #473129;
+        }
+       
+    }
+}
+
+.btn-primary {
+    background-color: #615854!important;
+    border: none !important;
+}
+
+.contact-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        padding-left: 12px;
+    }
+    
+   }
+
+footer {
+    background-color: #473129;
+    height: 10vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+    p{
+        max-width: 80%;
+    
+    }
+
+}
+
+@media (max-width: 576px) {
+    .principal-container {
+        
+        ul {
+            display: none;
+        }
+
+        .main-section {  
+            margin-top: 8vh;
+            max-width: 100%;
+
+            .btn {
+                width: 100%;
+                margin-top: 2vh ;
+            }
+        }
+
+        
+    }
+
+    .products-section {
+        padding-top: 68px;
+    }
+    
+}
+
+@media (min-width: 577px) and (max-width:1279px) {
+
+    .principal-container {
+
+        .main-section {
+            .btn {
+               width: 90%;
+            }
+        }
+
+        
+    }
+
+
+}
+
+
+
+
+
+
+
