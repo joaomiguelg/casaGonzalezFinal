@@ -71,7 +71,7 @@
 }
 
 .background{
-    background:linear-gradient(0deg, rgba(145, 145, 145, 0.534), rgba(0, 0, 0, 0.897)), url(../images/anacardium-3523449_1920.jpg) center/cover no-repeat;
+    background:linear-gradient(0deg, rgba(145, 145, 145, 0.308), rgba(0, 0, 0, 0.89)), url(../images/anacardium-3523449_1920.jpg) center/cover no-repeat;
     max-height: 100vh;
     height: 100%;
     width: 100vw;
@@ -144,11 +144,11 @@
     }
 
     .weight {
-        background-color:#fff2b8;
+        background-color:#615855ee;
         text-align: center;
         border-radius: 8px;
-        color: #473129;
-        font-weight: 600;
+        color: #ffffff;
+
         height: 32px;
         padding-top: 5px;
     }
@@ -156,7 +156,7 @@
     .price {
         background-color: #ffffff;
         text-align: center;
-        color: #686361;
+        color: #3f3c3b;
         margin-top: 10px;
         
     }
