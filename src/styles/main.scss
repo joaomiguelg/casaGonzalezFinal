@@ -25,7 +25,7 @@
                 font-size: 1.2em;
                 color: #fff;
                 &:hover {
-                    color: #473129;
+                    color: #72625c;
                 }
             }
             
@@ -56,22 +56,22 @@
     
         .btn {
             margin-top: 3vh;
-            background-color: #fff2b8;
+            background-color: #473129;
             height: 40px;
             width: 60%;
-            font-weight: 700;
-            color: #473129;
+            font-weight: 500;
+            color: #ffffff;
 
         
             &:hover {
-                background-color: #fff2b88c;
+                background-color: #47312986;
             }
         }
     }
 }
 
 .background{
-    background:linear-gradient(0deg, rgba(255, 255, 255, 0.253), rgba(0, 0, 0, 0.692)), url(../images/walnuts-1739021.jpg) center/cover no-repeat;
+    background:linear-gradient(0deg, rgba(145, 145, 145, 0.534), rgba(0, 0, 0, 0.897)), url(../images/anacardium-3523449_1920.jpg) center/cover no-repeat;
     max-height: 100vh;
     height: 100%;
     width: 100vw;
